@@ -1,4 +1,4 @@
-# Cruise_Control_System
+# Cruise Control System
 A simulation-based control systems project focused on designing and comparing three different controllers: PID, Lead-Lag, and LQR, for regulating the velocity of a Toyota Camry XLE under aerodynamic and rolling resistance forces. This project was done as a part of the ME 5659 (Control Systems Engineering) course at Northeastern University.
 
 ### Table of Content
@@ -25,9 +25,9 @@ The main objectives of this project were as follows:
 
 ### Evaluation Metrics
 Each controller was evaluated using the following criteria:
-- Percent Overshoot (% OS): The maximum amount by which the vehicle’s speed exceeds the desired cruise speed during the transient response, expressed as a percentage of the desired speed. It is used to assess how aggressively the controller responds before settling.
-- Settling Time (Ts): The time it takes for the vehicle’s velocity to enter and remain within a ±2% tolerance band around the desired speed. It indicates how quickly the system stabilizes after a step input.
-- Steady-State Error (Final Speed vs Desired Speed): The absolute difference between the final velocity of the vehicle and the desired cruise speed after all transients have died out. It reflects the accuracy of long-term speed tracking.
+- <b> Percent Overshoot (% OS):</b> The maximum amount by which the vehicle’s speed exceeds the desired cruise speed during the transient response, expressed as a percentage of the desired speed. It is used to assess how aggressively the controller responds before settling.
+- <b> Settling Time (Ts):</b> The time it takes for the vehicle’s velocity to enter and remain within a ±2% tolerance band around the desired speed. It indicates how quickly the system stabilizes after a step input.
+- <b> Steady-State Error (Final Speed vs Desired Speed):</b> The absolute difference between the final velocity of the vehicle and the desired cruise speed after all transients have died out. It reflects the accuracy of long-term speed tracking.
   
 To ensure consistency, we have used the same gain values for a particular controller for both, the linear and non-linear cases across the entire range of desired velocities. 
 
