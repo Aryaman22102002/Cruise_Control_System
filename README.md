@@ -14,19 +14,19 @@ A simulation-based control systems project focused on designing and comparing th
 ### File Structure
 ```
    ┣ 📂MATLAB_Codes       
-   ┃ ┗ 📜Calculate_damping_coeff.m                # Computes linear damping coefficient (b) using aerodynamic drag and rolling resistance equations.                           
-   ┃ ┗ 📜LQR_Gain_Compute.m                       # Calculates LQR gains (K and Nbar) for the linear plant.
-   ┃ ┗ 📜LeadLag_Controller.m                     # Implements Lead-Lag control law in Laplace domain.
-   ┃ ┗ 📜PID.m                                    # Implements custom PID controller function. 
-   ┃ ┗ 📜Plot_AeroDrag_vs_Vel.m                   # Plots linear vs nonlinear aerodynamic drag vs velocity.
-   ┃ ┗ 📜Plot_Graphs.m                            # Compares controller performance via Percent Overshoot, Setlling Time, and Final Steady-State Values. 
+   ┃ ┗ 📜Calculate_damping_coeff.m        # Computes linear damping coefficient (b) using aerodynamic drag and rolling resistance equations.                           
+   ┃ ┗ 📜LQR_Gain_Compute.m               # Calculates LQR gains (K and Nbar) for the linear plant.
+   ┃ ┗ 📜LeadLag_Controller.m             # Implements Lead-Lag control law in Laplace domain.
+   ┃ ┗ 📜PID.m                            # Implements custom PID controller function. 
+   ┃ ┗ 📜Plot_AeroDrag_vs_Vel.m           # Plots linear vs nonlinear aerodynamic drag vs velocity.
+   ┃ ┗ 📜Plot_Graphs.m                    # Compares controller performance via Percent Overshoot, Setlling Time, and Final Steady-State Values. 
    ┣ 📂Simulink_Files                        
-   ┃ ┗ 📜Linear_Plant_LQR.slx                     # Simulink model of linear plant with LQR controller.          
-   ┃ ┗ 📜Linear_Plant_Lead_Lag.slx                # Simulink model of linear plant with Lead-Lag controller.
-   ┃ ┗ 📜Linear_Plant_PID.slx                     # Simulink model of linear plant with PID controller.
-   ┃ ┗ 📜Non_Linear_Plant_LQR.slx                 # Simulink model of nonlinear plant with LQR controller.   
-   ┃ ┗ 📜Non_Linear_Plant_Lead_Lag.slx            # Simulink model of nonlinear plant with Lead-Lag controller.
-   ┃ ┗ 📜Non_Linear_Plant_PID.slx                 # Simulink model of nonlinear plant with PID controller.
+   ┃ ┗ 📜Linear_Plant_LQR.slx             # Simulink model of linear plant with LQR controller.          
+   ┃ ┗ 📜Linear_Plant_Lead_Lag.slx        # Simulink model of linear plant with Lead-Lag controller.
+   ┃ ┗ 📜Linear_Plant_PID.slx             # Simulink model of linear plant with PID controller.
+   ┃ ┗ 📜Non_Linear_Plant_LQR.slx         # Simulink model of nonlinear plant with LQR controller.   
+   ┃ ┗ 📜Non_Linear_Plant_Lead_Lag.slx    # Simulink model of nonlinear plant with Lead-Lag controller.
+   ┃ ┗ 📜Non_Linear_Plant_PID.slx         # Simulink model of nonlinear plant with PID controller.
    ┣ 📜LICENSE
    ┣ 📜Project_Presentation.pdf
    ┣ 📜Project_Report.pdf
