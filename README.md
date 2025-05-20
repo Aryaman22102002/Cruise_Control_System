@@ -2,7 +2,7 @@
 A simulation-based control systems project focused on designing and comparing three different controllers: PID, Lead-Lag, and LQR, for regulating the velocity of a Toyota Camry XLE under aerodynamic and rolling resistance forces. This project was done as a part of the ME 5659 (Control Systems Engineering) course at Northeastern University.
 
 ### Table of Content
-* [File Structure] (#file-structure)
+* [File Structure](#file-structure)
 * [Objectives](#objectives)
 * [Our Approach](#our-approach)
 * [Evaluation Metrics](#evaluation-metrics)
